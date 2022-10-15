@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "get-post-py"
+version = "0.1.0"
+description = ""
+authors = ["Box <j@box.lol>"]
+readme = "README.md"
+packages = [{include = "get_post_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sanic = {version = "^22.9.0", extras = ["=ext"]}
+sanic-ext = "^22.9.0"
+sanic-sass = "^0.1.0"
+options = "^1.4.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
