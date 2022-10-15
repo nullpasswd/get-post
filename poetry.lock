@@ -7,22 +7,6 @@ optional = false
 python-versions = ">=3.7,<4.0"
 
 [[package]]
-name = "chainmap"
-version = "1.0.3"
-description = "Backport/clone of ChainMap for py26, py32, and pypy3."
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
-name = "combomethod"
-version = "1.0.12"
-description = "Decorator indicating a method is both a class and an instance method"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "httptools"
 version = "0.5.0"
 description = "A collection of framework independent HTTP protocol utils."
@@ -51,28 +35,6 @@ description = "multidict implementation"
 category = "main"
 optional = false
 python-versions = ">=3.7"
-
-[[package]]
-name = "nulltype"
-version = "2.3.1"
-description = "Null values and sentinels like (but not) None, False & True"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
-name = "options"
-version = "1.4.10"
-description = "Simple, super-flexible options. Does magic upon request."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-chainmap = ">=1.0.3,<1.1.0"
-combomethod = ">=1.0.12,<1.1.0"
-nulltype = ">=2.3.1,<2.4.0"
-six = ">=1.12.0,<1.13.0"
 
 [[package]]
 name = "sanic"
@@ -159,20 +121,12 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "01c8485d66d4204c1ecb318f7b713acfd091b5ccca590531428aeabf8ab62e0a"
+content-hash = "111ded4fbefb2b59c36ac931662ee7bb8a41484c513c458ca1e1bbcf843248c9"
 
 [metadata.files]
 aiofiles = [
     {file = "aiofiles-22.1.0-py3-none-any.whl", hash = "sha256:1142fa8e80dbae46bb6339573ad4c8c0841358f79c6eb50a493dceca14621bad"},
     {file = "aiofiles-22.1.0.tar.gz", hash = "sha256:9107f1ca0b2a5553987a94a3c9959fe5b491fdf731389aa5b7b1bd0733e32de6"},
-]
-chainmap = [
-    {file = "chainmap-1.0.3-py3-none-any.whl", hash = "sha256:22b6ccf38698c0356e65e5dfa49c98fb16e3408928b95d90e2332e2fb787988e"},
-    {file = "chainmap-1.0.3.tar.gz", hash = "sha256:e42aaa4b3e2f66102a11bfd563069704bfbfd84fdcb517b564effd736bf53cd9"},
-]
-combomethod = [
-    {file = "combomethod-1.0.12-py2.py3-none-any.whl", hash = "sha256:0e578ad7158f241cd70a9cbcfef07d6ee7a2f9b60f49b485c7ebd2477059ecc7"},
-    {file = "combomethod-1.0.12.zip", hash = "sha256:4975b436ffe3e0a2561b58e3e9d047a50f4b16c8d4956d6a3e6ce566d034dd5e"},
 ]
 httptools = [
     {file = "httptools-0.5.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:8f470c79061599a126d74385623ff4744c4e0f4a0997a353a44923c0b561ee51"},
@@ -289,14 +243,6 @@ multidict = [
     {file = "multidict-6.0.2-cp39-cp39-win32.whl", hash = "sha256:23b616fdc3c74c9fe01d76ce0d1ce872d2d396d8fa8e4899398ad64fb5aa214a"},
     {file = "multidict-6.0.2-cp39-cp39-win_amd64.whl", hash = "sha256:4bae31803d708f6f15fd98be6a6ac0b6958fcf68fda3c77a048a4f9073704aae"},
     {file = "multidict-6.0.2.tar.gz", hash = "sha256:5ff3bd75f38e4c43f1f470f2df7a4d430b821c4ce22be384e1459cb57d6bb013"},
-]
-nulltype = [
-    {file = "nulltype-2.3.1-py2.py3-none-any.whl", hash = "sha256:16ae565745118e37e0558441f5821c76351d8c3a789640b5bca277cf65b2271b"},
-    {file = "nulltype-2.3.1.zip", hash = "sha256:64aa3cb2ab5e904d1b37175b9b922bea268c13f9ce32e3d373313150ab5ef272"},
-]
-options = [
-    {file = "options-1.4.10-py3-none-any.whl", hash = "sha256:9625e2fdde840e45a385739fae2504f432a58002e3857fa63b1bada66c317bc6"},
-    {file = "options-1.4.10.tar.gz", hash = "sha256:8bfdf4f11613181880fdb8bfc7fce3717c961d495b42ab605baf1b7c94e821aa"},
 ]
 sanic = [
     {file = "sanic-22.9.0-py3-none-any.whl", hash = "sha256:01932dc4cbcd312caf509cb9ffcee8bea4f22b497a5b0c2d4dd5794c4408737a"},

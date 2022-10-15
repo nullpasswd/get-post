@@ -10,7 +10,6 @@ packages = [{include = "get_post_py"}]
 python = "^3.10"
 sanic = {version = "^22.9.0", extras = ["=ext"]}
 sanic-sass = "^0.1.0"
-options = "^1.4.10"
 
 
 [build-system]
