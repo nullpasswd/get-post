@@ -1,5 +1,5 @@
-from sanic import Sanic, Request, Blueprint
-from sanic.response import json, file
+from sanic import Sanic, Request
+from sanic.response import json
 from sanic_sass import SassManifest
 
 from cors import add_cors_headers
